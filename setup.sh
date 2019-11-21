@@ -1,5 +1,5 @@
-sudo apt update -y
-sudo apt install squid -y
+sudo apt-get -y update
+sudo apt-get -y install squid
 
 # TODO /etc/squid/squid.conf
 sudo service squid restart
